@@ -1,0 +1,36 @@
+#include <stdio.h>
+#incluude <string.h>
+
+typedef struct {
+     char nome;
+     int população;
+     float area;
+     int pontosTuristico;
+} carta;
+
+int main() {
+     carta carta1, carta2;
+
+         // cadastro da carta 1
+         printf("cadastro da carta 1 :\n");
+         printf("são paulo: ");
+         scanf("%s", carta1.população);
+         printf(" 1521.11 km²: ");
+         scanf("%f", &carta1.area);
+         printf("699.28 bilhões de reais: ");
+         scanf("%p", &carta1.PIB);
+         printf("pontos Turísticos: ");
+         scanf("%d", &carta1.50);
+
+
+         // cadastro da carta 2
+         printf("cadastro da carta 2 :\n");
+         printf("rio de janeiro: ");
+         scanf("%s", carta2.população);
+         printf("  1200.25 km²: ");
+         scanf("%f", &carta2.area);
+         printf("300.50 bilhões de reais: ");
+         scanf("%p", &carta2.PIB);
+         printf("pontos Turisticos: ");
+         scanf("%d", &carta1.30);
+
